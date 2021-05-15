@@ -1,0 +1,53 @@
+# ------------------------------------------------------------------------------------------
+# DICTIONARY (exemples)
+# ------------------------------------------------------------------------------------------
+
+my_dict_A = {1 : 'White', 2 : 'Black', 3 : 'Blue', 4 : 'Yellow'}
+my_dict_B = {'Car' : 'Medium', 'Bike' : 'Small', 'Ship' : 'Big', 'Airplane' : 'Big'}
+
+# ------------------------------------------------------------------------------------------
+# INPUT NEW OBJECTS
+# ------------------------------------------------------------------------------------------
+
+my_dict_A[5] = 'Brown'
+my_dict_A.update = ({5 : 'Brown'})
+
+my_dict_B[Train} = 'Big'
+my_dict_B.update ({'Train' : 'Big'})
+
+# ------------------------------------------------------------------------------------------
+# PRINT
+# ------------------------------------------------------------------------------------------
+
+print(my_dict_A)
+
+  # Result: {1: 'White', 2: 'Black', 3: 'Blue', 4: 'Yellow', 5: 'Brown'}
+
+print(my_dict_B)
+
+  # Result: {'Car': 'Medium', 'Bike': 'Small', 'Ship': 'Big', 'Airplane': 'Big', 'Train': 'Big'}
+
+print(my_dict_A[2])
+
+  # Result: Black
+
+print(my_dict_B.get('Ship'))
+
+  # Result: Big
+  
+print(len(my_dict_A))
+
+  # Result of number of positions: 5
+
+# ------------------------------------------------------------------------------------------
+# DELETE 
+# ------------------------------------------------------------------------------------------
+
+my_dict_A.pop(3)
+
+  # Result: {1: 'White', 2: 'Black', 4: 'Yellow', 5: 'Brown'}
+  
+my_dict_B.pop('Ship')
+  
+    # Result: {'Car': 'Medium', 'Bike': 'Small', 'Airplane': 'Big', 'Train': 'Big'}
+  
